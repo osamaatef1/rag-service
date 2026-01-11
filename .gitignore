@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Storage
+storage/chromadb/*
+!storage/chromadb/.gitkeep
+logs/*.log
+!logs/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# OS
+.DS_Store
+Thumbs.db
