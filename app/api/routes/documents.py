@@ -2,13 +2,11 @@
 API routes for document management.
 """
 from typing import Optional
-from fastapi import APIRouter, UploadFile, File, Form, HTTPException, Depends, status
+from fastapi import APIRouter, UploadFile, File, Form, HTTPException, status
 from app.models.schemas import (
-    DocumentIngestRequest,
     DocumentIngestResponse,
     DocumentListResponse,
     DocumentDeleteResponse,
-    DocumentFilter,
     ErrorResponse
 )
 from app.services.document_service import document_service
